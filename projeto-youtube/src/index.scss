@@ -1,5 +1,5 @@
-$primary: #150080;
-$accent: #d08642;
+$primary: #008006;
+$accent: #42d0c4;
 $bg: #ffffff;
 $bg-accent: #e7e8e9;
 $disabled: #9c9c9c;
@@ -23,6 +23,41 @@ body {
     margin-top: 100px;
     padding: 30px 60px;
     box-sizing: border-box;
+
+    .inicio {
+        text-align: center;
+        
+        h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid $disabled;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .start-button {
+            background: linear-gradient(0deg, $primary 0.03%, $accent);
+            border-radius: 9px;
+            font-size: 18px;
+            color: $bg;
+            padding: 10px 42px;
+            outline: none;
+            border: none;
+            margin-top: 15px;
+            cursor: pointer;
+            width: 80%;
+
+            &:hover {
+                background: $accent;
+            }
+        }
+    }
 
     .perguntasAtivas {
         font-size: 32px;
@@ -59,12 +94,19 @@ body {
             cursor: pointer;
         }
 
-        .opção-selecionada {
-            background: $primary;
+        .opção-correta {
+            background: green;
+            border: 1px solid $accent;
+            color: $bg;
+        }
+
+        .opção-incorreta {
+            background: red;
             border: 1px solid $accent;
             color: $bg;
         }
     }
+
     .rodape {
        display: flex;
        justify-content: flex-end; 
