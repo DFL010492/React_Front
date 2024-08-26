@@ -2,50 +2,65 @@ export const jsQuestões = {
     perguntas: [
       {
         questão:
-          "Which of the following is used in React.js to increase performance?",
+          "Qual das alternativas a seguir descreve corretamente o React?",
         escolhas: [
-          "Virtual DOM",
-          "Original DOM",
-          "Both A and B",
-          "None of the above",
+          "O React é um framework de back-end JavaScript de código fechado, usado para gerenciar bancos de dados.",
+          "O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.",
+          "O React é uma ferramenta de design gráfico usada para criar logotipos e animações.",
+          "O React é um ambiente de desenvolvimento integrado (IDE) usado para criar aplicativos de desktop.",
         ],
         type: "MCQs",
-        resposta: "Virtual DOM",
+        resposta: "O React é uma biblioteca front-end JavaScript de código aberto com foco em criar interfaces de usuário em páginas web.",
       },
       {
-        questão: "What is ReactJS?",
+        questão: "Como muda a cor de um elemento em html?",
         escolhas: [
-          "Server-side framework",
-          "User Interface framework",
-          "both a and b",
-          "None of the above",
+          "background-color",
+          "font-color",
+          "shadow-color",
+          "color",
         ],
         type: "MCQs",
-        resposta: "User Interface framework",
+        resposta: "color",
       },
       {
-        questão:
-          "Identify the one which is used to pass data to components from outside",
-        escolhas: ["Render with arguments", "setState", "PropTypes", "props"],
+        questão: "O React foi criado por qual empresa?",
+        escolhas: [
+          "Amazon", 
+          "Apple", 
+          "Facebook", 
+          "Google"
+        ],
         type: "MCQs",
-        resposta: "props",
+        resposta: "Facebook",
       },
       {
-        questão: "In which language is React.js written?",
-        escolhas: ["Python", "Java", "C#", "JavaScript"],
+        questão: "O que fez a função render em um componente de classe React?",
+        escolhas: [
+          "Atualiza o estado do componente", 
+          "Cria uma nova instância do componente", 
+          "Retorna o conteúdo JSX que será exibido na tela", 
+          "Adiciona estilos ao componente"
+        ],
+        type: "MCQs",
+        resposta: "Retorna o conteúdo JSX que será exibido na tela",
+      },
+      {
+        questão: "Qual a linguagem de programação usada pelo React?",
+        escolhas: [
+          "Python",
+          "JavaScript",
+          "C++",
+          "TypeScript",
+        ],
         type: "MCQs",
         resposta: "JavaScript",
       },
-      {
-        questão: "What is Babel?",
-        escolhas: [
-          "JavaScript interpreter",
-          "JavaScript transpiler",
-          "JavaScript compiler",
-          "None of the above",
-        ],
-        type: "MCQs",
-        resposta: "JavaScript compiler",
-      },
     ],
   };
+
+export const resultadoInicialState = {
+    score: 0,
+    respostasCertas: 0,
+    respostasErradas: 0,
+};
