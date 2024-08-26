@@ -75,7 +75,7 @@ const Questões = ({ perguntas }) => {
                         className="input"
                     />
                     <input
-                        type="text"
+                        type="number"
                         placeholder="Matrícula"
                         value={matricula}
                         onChange={(e) => setMatricula(e.target.value)}
