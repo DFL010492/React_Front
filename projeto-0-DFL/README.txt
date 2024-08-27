@@ -9,4 +9,4 @@ para instalar vite e os arquivos
 npm run dev
 para iniciar o aplicativo 
 
-Clique com o botão esquerdo enquanto segura Ctrl para abrir i aplicativo no browser.
+Clique com o botão esquerdo enquanto segura Ctrl para abrir o aplicativo no browser.
