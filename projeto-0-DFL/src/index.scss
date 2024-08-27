@@ -112,6 +112,7 @@ body {
             border: 1px solid $accent;
             color: $bg;
         }
+
     }
 
     .rodape {
@@ -155,5 +156,17 @@ body {
             color: $primary;
             font-size: 22px;
         }
+    }
+
+    .explicacao {
+        text-decoration: none;
+        list-style: none;
+        color: black;
+        font-size: 16px;
+        background: yellow;
+        border: 10px solid black;
+        border-radius: 16px;
+        padding: 11px;
+        margin-top: 15px;
     }
 }
