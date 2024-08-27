@@ -14,6 +14,9 @@ body {
     margin: 0 auto;
     padding: 0 30px;
     height: 100vh;
+    @media (max-width: 768px) {
+        background: linear-gradient(0deg, $primary 0.03%, $accent); // Ajusta o background para não se repetir em dispositivos móveis
+    }
 }
 
 .containerPergunta {
@@ -24,6 +27,10 @@ body {
     padding: 30px 60px;
     box-sizing: border-box;
 
+    @media (max-width: 768px) {
+        width: 90%; // Ajusta a largura para ocupar mais espaço em dispositivos móveis
+        padding: 20px;
+    }
     .inicio {
         text-align: center;
         
