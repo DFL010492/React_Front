@@ -89,3 +89,13 @@ export const resultadoInicialState = {
     respostasCertas: 0,
     respostasErradas: 0,
 };
+
+export const pessoa = {
+  usuarios: [{
+    usuario: "Daniel",
+    senha: "123456",
+  },{
+    usuario: "Carlos",
+    senha: "987654"
+  }],
+};
